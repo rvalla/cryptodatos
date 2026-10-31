@@ -65,11 +65,11 @@ body {
 }
 
 .hidden-box {
-  width: 100%;
-  border-radius: 16px;
+  width: 95%;
+  border-radius: 8px;
   background-color: #222222;
   float: center;
-  margin: 0;
+  margin: 10px auto 10px auto;
   padding: 1vw;
 }
 
@@ -86,7 +86,7 @@ button {
   transition-duration: 0.3s;
   width: 95%;
   font-size: 1.25em;
-	font-weight: 1000;
+	font-weight: 900;
 	text-align: center;
   text-decoration: none;
 	padding: 0.5vw;
@@ -159,7 +159,13 @@ p {
 	margin: 10px;
 }
 
-p.message {
+p.cypher_text {
+	font-weight: 600;
+	color: #11dd11;
+}
+
+p.plain_text {
+	font-weight: 600;
 	color: #222222;
 }
 
@@ -167,6 +173,7 @@ img {
 	display: block;
 	margin: 4% auto 4% auto;
 	width: 96%;
+	border: 3px solid #11dd11;
 	border-radius: 8px;
 }
 
@@ -229,6 +236,21 @@ b {
   .container-2c {
     grid-template-columns: 1fr;
   }
+  h1 {
+		font-size: 30px;
+  }
+  h1.home {
+		font-size: 36px;
+	}
+	h1.box {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 20px;
+	}
 	.box {
 		padding: 0.5vw;
 	}
